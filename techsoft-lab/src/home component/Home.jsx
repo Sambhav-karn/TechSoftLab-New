@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
-import WebDev from '../Images/Webdev.png';
+import WebDev from '../Images/webimg.png';
 import AppDev from '../Images/AppDev.png';
 import DataAna from '../Images/DataAna.png';
 import Hardware from '../Images/Hardware.png';

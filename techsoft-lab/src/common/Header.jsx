@@ -103,7 +103,7 @@ export default function Header() {
         {/* Desktop Layout */}
         <div className='hidden md:grid md:grid-cols-[43%_40%_auto] md:items-center md:gap-5'>
           {/* <h1 className='text-2xl font-serif'>Triveni <span className='text-orange-400'>Media</span></h1> */}
-          <img src={logo} alt="TechSoft Lab" className='w-[100px]'/>
+          <img src={logo} alt="TechSoft Lab" className='w-[60px]'/>
           <div>
             <ul className='flex justify-between items-center text-black font-semibold'>
               <Link to={'/'}>
