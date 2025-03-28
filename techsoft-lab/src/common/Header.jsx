@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import '../App.css';
 import { BsFiletypeJsx } from "react-icons/bs";
 import { MdContactPhone } from "react-icons/md";
-import { FaChevronRight, FaClapperboard ,FaComputer  } from "react-icons/fa6";
+import { FaChevronRight, FaClapperboard, FaComputer } from "react-icons/fa6";
 import { IoHardwareChipOutline, IoBusinessOutline } from "react-icons/io5";
 import { LuDatabaseBackup } from "react-icons/lu";
 import { FaAppStore } from "react-icons/fa";
@@ -11,7 +11,7 @@ import { PiFileHtml } from "react-icons/pi";
 import { LiaAndroid } from "react-icons/lia";
 import { RiFlutterLine } from "react-icons/ri";
 import { IoMdAnalytics } from "react-icons/io";
-import { TbBrandPython,TbDeviceCctvFilled  } from "react-icons/tb";
+import { TbBrandPython, TbDeviceCctvFilled } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { HiMenu, HiX } from "react-icons/hi";
 import { GiNetworkBars } from "react-icons/gi";
@@ -74,9 +74,9 @@ export default function Header() {
         {
           title: 'Hardware Services',
           items: [
-            { title: 'Networking', icon: <GiNetworkBars/>, path: '/hardware/networking' },
-            { title: 'IT Product', icon: <FaComputer/>, path: '/hardware/networking' },
-            { title: 'CCTV Solution', icon: <TbDeviceCctvFilled/>, path: '/hardware/networking' }
+            { title: 'Networking', icon: <GiNetworkBars />, path: '/hardware/networking' },
+            { title: 'IT Product', icon: <FaComputer />, path: '/hardware/networking' },
+            { title: 'CCTV Solution', icon: <TbDeviceCctvFilled />, path: '/hardware/networking' }
           ]
         }
       ]
@@ -103,7 +103,9 @@ export default function Header() {
         {/* Desktop Layout */}
         <div className='hidden md:grid md:grid-cols-[43%_40%_auto] md:items-center md:gap-5'>
           {/* <h1 className='text-2xl font-serif'>Triveni <span className='text-orange-400'>Media</span></h1> */}
-          <img src={logo} alt="TechSoft Lab" className='w-[60px]'/>
+          <Link to={'/'}>
+            <img src={logo} alt="TechSoft Lab" className='w-[60px]' />
+          </Link>
           <div>
             <ul className='flex justify-between items-center text-black font-semibold'>
               <Link to={'/'}>
@@ -163,10 +165,10 @@ export default function Header() {
                           <div className='transition-opacity duration-300'>
                             <h3 className='text-lg font-semibold text-gray-800'>Hardware</h3>
                             <ul className='mt-2 space-y-1 text-black'>
-                                <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><GiNetworkBars /> Networking</li>
-                                <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><FaComputer /> IT Product</li>
-                                <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><TbDeviceCctvFilled />CCTV Solution</li>
-                              </ul>
+                              <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><GiNetworkBars /> Networking</li>
+                              <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><FaComputer /> IT Product</li>
+                              <li className='flex items-center gap-1 hover:translate-x-2 p-2 hover:text-blue-900'><TbDeviceCctvFilled />CCTV Solution</li>
+                            </ul>
                           </div>
                         )}
                         {activeService === 'data' && (

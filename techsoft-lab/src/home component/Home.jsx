@@ -220,7 +220,7 @@ export default function Home() {
       <div className="bg-gradient-to-r from-violet-200 to-pink-200 py-5">
         <div>
           <h2 className="text-center text-black text-xl sm:text-2xl md:text-3xl py-2 font-semibold">
-            IT Software & Hardware Consultant
+            Technology Consultant
           </h2>
         </div>
         <div className="text-center mt-2 sm:mt-4 md:mt-6">
@@ -282,7 +282,7 @@ export default function Home() {
                   App Development
                 </h1>
                 <p className="text-justify text-xs sm:text-sm md:text-base">
-                  At Techsoft Lab Services, we create websites that are both visually appealing and functionally seamless. Whether you’re a startup in need of a digital marketing advertising solution or an established business seeking a full-service advertising agency, we ensure your website meets your goals and engages your audience.
+                  At Techsoft Lab Services, we design and develop high-performance mobile applications that enhance user experience and drive business growth. Whether you need a custom app for iOS, Android, or cross-platform solutions, our expert team ensures seamless functionality, intuitive design, and scalability. From startups to enterprises, we create apps that streamline operations, boost engagement, and deliver results.
                 </p>
                 <button className="mt-2 uppercase flex gap-2 sm:gap-2 md:gap-3 items-center border-b border-red-500 pb-1 hover:border-blue-600 duration-200 text-xs sm:text-sm md:text-base">
                   Read More <HiArrowUpRight />
@@ -297,7 +297,8 @@ export default function Home() {
                   Data Analysis & Web Automation
                 </h1>
                 <p className="text-justify text-xs sm:text-sm md:text-base">
-                  At Techsoft Lab Services, we create websites that are both visually appealing and functionally seamless. Whether you’re a startup in need of a digital marketing advertising solution or an established business seeking a full-service advertising agency, we ensure your website meets your goals and engages your audience.
+                  At Techsoft Lab Services, we help businesses harness the power of data through advanced analytics and intelligent automation. Our data analysis solutions turn raw data into actionable insights, enabling smarter decision-making and business growth. With web automation, we streamline repetitive tasks, optimize workflows, and enhance operational efficiency—saving you time and resources.
+
                 </p>
                 <button className="mt-2 uppercase flex gap-2 sm:gap-2 md:gap-3 items-center border-b border-red-500 pb-1 hover:border-blue-600 duration-200 text-xs sm:text-sm md:text-base">
                   Read More <HiArrowUpRight />
@@ -312,7 +313,9 @@ export default function Home() {
                   Hardware & CCTV
                 </h1>
                 <p className="text-justify text-xs sm:text-sm md:text-base">
-                  At Techsoft Lab Services, we create websites that are both visually appealing and functionally seamless. Whether you’re a startup in need of a digital marketing advertising solution or an established business seeking a full-service advertising agency, we ensure your website meets your goals and engages your audience.
+                  At Techsoft Lab Services, we provide reliable hardware and CCTV solutions to enhance security, efficiency, and connectivity for businesses and homes. Our hardware solutions include high-performance computing devices, networking equipment, and IT infrastructure tailored to your needs.
+
+                  With our CCTV surveillance systems, we ensure 24/7 security monitoring, remote access, and real-time alerts, helping you protect your assets with advanced technology. Whether it's installation, maintenance, or system integration, we deliver seamless security and hardware solutions to keep you ahead.
                 </p>
                 <button className="mt-2 uppercase flex gap-2 sm:gap-2 md:gap-3 items-center border-b border-red-500 pb-1 hover:border-blue-600 duration-200 text-xs sm:text-sm md:text-base">
                   Read More <HiArrowUpRight />
@@ -327,7 +330,7 @@ export default function Home() {
                   Project & Operation Management
                 </h1>
                 <p className="text-justify text-xs sm:text-sm md:text-base">
-                  At Techsoft Lab Services, we create websites that are both visually appealing and functionally seamless. Whether you’re a startup in need of a digital marketing advertising solution or an established business seeking a full-service advertising agency, we ensure your website meets your goals and engages your audience.
+                  At Techsoft Lab Services, we provide strategic project and operations management solutions to help businesses streamline workflows, improve efficiency, and achieve their goals. From planning and execution to monitoring and optimization, we ensure seamless coordination across teams and resources.
                 </p>
                 <button className="mt-2 uppercase flex gap-2 sm:gap-2 md:gap-3 items-center border-b border-red-500 pb-1 hover:border-blue-600 duration-200 text-xs sm:text-sm md:text-base">
                   Read More <HiArrowUpRight />
