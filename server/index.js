@@ -1,6 +1,8 @@
  let express = require('express');
+ import helmet from "helmet";
 const mongoose = require('mongoose');
 let cors = require('cors');
+
 
 require("dotenv").config();
 const mainRoute = require('./App/routes/mainRoute');
@@ -10,6 +12,7 @@ let app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors());
+app.use(helmet());
 
 app.use(mainRoute);
 
