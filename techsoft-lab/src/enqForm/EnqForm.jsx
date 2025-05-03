@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { RxCross2 } from "react-icons/rx";
-import swal from 'sweetalert';
+// import swal from 'sweetalert';
 import axios from 'axios';
 import Swal from 'sweetalert2';
 
@@ -68,7 +68,7 @@ export default function EnqForm({ onClose }) {
 
         try {
             const res = await axios.post(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/web/user/enq`, payload);
-            // console.log('API Response:', res.data);
+            // console.log('API Response:', res.data);  
 
             Swal.fire({
                 icon: 'success',
@@ -113,7 +113,7 @@ export default function EnqForm({ onClose }) {
 
 
     return (
-        <form className='flex justify-center items-center sm:py-4 animate-slideDown sm:px-4 bg-[rgba(0,0,0,0.5)] ' onSubmit={handleSubmit} >
+        <form className='flex justify-center items-center sm:py-4 animate-slideDown sm:px-4 bg-[rgba(0,0,0,0.5)] h-screen' onSubmit={handleSubmit} >
             <div className='w-full max-w-[900px] mx-auto'>
                 <div className="text-center w-full">
                     <svg className="text-gray-100 h-0 mx-auto" fill-current viewBox="0 0 150 29" version="1.1"
