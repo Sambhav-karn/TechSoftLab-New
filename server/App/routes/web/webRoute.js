@@ -1,23 +1,10 @@
-let express = require('express');
-const { userAuth } = require('./userAuth');
+const express = require('express');
+const userAuth = require('./userAuth'); // ✅ No destructuring
 
-let webRoute = express.Router();
+const webRoute = express.Router();
 
+webRoute.use("/user", userAuth);
 
-
-
-webRoute.use("/user", userAuth)
-
-
-
-
-
-
-
-
-
-
-
-
+//http://localhost:8000/web/user
 
 module.exports = webRoute;

@@ -1,15 +1,10 @@
-const multer = require('multer');
-let express = require('express');
+const express = require('express');
 const { sendEnq } = require('../../controller/web/enqController');
-let userAuth = express.Router();
+const userAuthRoute = require('../user/userAuthRoute');
 
+const userAuth = express.Router();
 
+userAuth.post("/enq", sendEnq);
+//http://localhost:8000/web/user/cweb
 
-let uploads = multer({ storage: "" })
-
-
-userAuth.post("/enq", sendEnq)
-
-
-module.exports = {userAuth};
-// http://localhost:8000/web/user/enq
+module.exports = userAuth; // ✅ Default export
